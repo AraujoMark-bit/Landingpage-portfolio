@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;  
   overflow-x: hidden;
-  background-image: url(/pictures/v628-kul-05-meteor.jpg);
+  background-image: url("../pictures/v628-kul-05-meteor.jpg");
   background-repeat: repeat;
   background-size: cover;
 
