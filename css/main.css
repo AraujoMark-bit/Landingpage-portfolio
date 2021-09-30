@@ -8,24 +8,28 @@ body {
   margin: 0;
   padding: 0;  
   overflow-x: hidden;
-  background-image: url("../pictures/v628-kul-05-meteor.jpg");
+  background-image: url("../pictures/background.jpg");
   background-repeat: repeat;
   background-size: cover;
 
 }
 
-/* Carousel base class */
+ .navbar-nav {
+  margin-left: auto !important;
+}
+
+
 .carousel {
   margin-bottom: 4rem;
 }
 
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+
 .carousel-item {
   height: 35rem;
 }
@@ -38,7 +42,7 @@ body {
   height: 35rem;
 }
 
-/* Center align the text within the three columns below the carousel */
+
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -92,8 +96,6 @@ body {
 
 #menu a {
   color: #FFF;
-  padding: 15px;
-  padding-left: 55px;
   font-family: 'Roboto Mono', monospace;
 
 }
@@ -179,6 +181,8 @@ p {
   color: #FFF;
   -webkit-animation: bounce-out-top 2.5s both;
   animation: bounce-out-top 3.5s both infinite;
+  font-size: x-large;
+  color: aqua;
 }
 
 .pincel {
@@ -330,9 +334,25 @@ p {
   margin-left: 100px;
 }
 
+@media screen and (max-width: 750px) {
+  .boot {
+     padding-top: 0;
+     margin-left: 0;
+  }
+
+}
+
 .python {
   padding-top: 60px;
 }
+
+@media screen and (max-width: 750px) {
+  .python {
+      padding-top: 0px;
+}
+  }
+
+
 
 .form {
   margin-top: 100px;

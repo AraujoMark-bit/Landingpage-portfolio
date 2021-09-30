@@ -23,23 +23,33 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg bg-warning navbar-dark bg-dark fixed-top">
       <div class="container" id="menu">
-        <a href=""><img src="pictures/favicon-32x32.png" alt="Logo M" class=""></a>
-        <a class="navbar-brand" href="#" style="color: blueviolet;" id="marcos">Marcos Araujo Developer</a>
+
+        <a class="navbar-brand" href="#"><img src="pictures/favicon-32x32.png" alt="Logo M" class=""></a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#myCarousel">Portfolio</a>
-            <a class="nav-link" href="#me">Me.</a>
-            <a class="nav-link" href="#contact">Contact</a>
-          </div>
+          <ul class="navbar-nav ml-auto hover-link">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myCarousel">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#me">Me.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
+
     </nav>
   </header>
   <main>
@@ -47,7 +57,7 @@
       <div class="row">
         <div class="col-lg-12 col-sm-12">
           <h1 class="h1">I'm Marcos Vinicius Araujo</h1>
-          <p>I'm <span> Full-stack</span> Developer Based on Rio de Janeiro</p>
+          <p>I'm a <span> Full-stack</span> Developer Based on Rio de Janeiro</p>
           <span class="btn-principal"><a href="https://github.com/AraujoMark-bit" target="_blank">Saiba Mais</a></span>
 
         </div>
@@ -58,34 +68,26 @@
           <img src="pictures/3230.png" alt="Imagem de um Astronauta.">
         </div>
       </div>
+
       <div class="row about">
-        <div class="col-sm-2" id="me">
+        <div class="col col-sm-2" id="me">
           <h2 id="about-me">About Me </h2>
         </div>
         <div class="col">
           <h4><i class="boneco fas fa-user-astronaut"></i></h4>
         </div>
       </div>
-      <hr class="linha" /> <br>
+      <hr class="linha" />
+      <br>
+
       <div class="row">
-        <div class="col col-sm-4">
+        <div class="col-12 col-md-6">
           <p>
             Hi ! <i class=" pincel fas fa-paint-brush"></i> <br> Fico feliz em ver que você está em meu humilde
             território, primeiramente satisfação, me chamo Marcos Vinicius Araujo, sou um pequeno Astronauta em
             missão,
             descobrindo o universo da Programação.
           </p>
-        </div>
-        <div class="col">
-          <div class="container-sm">
-            <div class="row-md">
-              <div class="text-center">
-                <img src="pictures/Success.jpg" alt="Homem segurando trofeu." class=" mx-auto d-block" /> <br>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col col-sm-4">
           <p>
             Atualmente cursando Análise e desenvolvimento de sistemas pela
             Universidade -Unigrario. <br>
@@ -94,7 +96,21 @@
             das pessoas.
           </p>
         </div>
-      </div> <br>
+        <div class="col-12 col-md-6">
+          <div class="container">
+            <div class="row">
+              <div class="my-3">
+                <img src="pictures/Success.jpg" alt="Homem segurando trofeu." class="img-fluid" /> <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+
+        </div>
+      </div>
+
+      <br>
 
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -113,7 +129,7 @@
             <div class="container">
               <div class="carousel-caption text-center">
                 <h1 class="text-port1">Site MarciaCakes</h1>
-                <p><a class="btn btn-sm btn-primary" href="#">Saiba Mais</a></p>
+                <p><a class="btn btn-sm btn-primary" href="https://github.com/AraujoMark-bit/Projeto-Site-confeitaria">Saiba Mais</a></p>
               </div>
             </div>
           </div>
@@ -126,7 +142,7 @@
             <div class="container">
               <div class="carousel-caption text-end text-dark">
                 <h1>Whatsapp Web Clone</h1>
-                <p><a class="btn btn-sm btn-primary" href="#">Saiba Mais</a></p>
+                <p><a class="btn btn-sm btn-primary" href="https://github.com/AraujoMark-bit/ProjetoZapClone">Saiba Mais</a></p>
               </div>
             </div>
           </div>
@@ -139,7 +155,7 @@
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1 class="">Entrega Facilitada</h1>
-                <p><a class="btn btn-sm btn-primary" href="#">Saiba Mais</a></p>
+                <p><a class="btn btn-sm btn-primary" href="https://github.com/AraujoMark-bit/Ola-Mundo">Saiba Mais</a></p>
               </div>
             </div>
           </div>
@@ -180,7 +196,7 @@
         </div>
         <div class="col-4 python">
           <h1><i class="devicon-csharp-plain colored"></i> .NET Core</h1>
-          
+
         </div>
       </div>
 
@@ -195,12 +211,12 @@
           <h1><i class="devicon-github-original-wordmark"></i>
             Git/Github</h1>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <h2><i class="devicon-mysql-plain-wordmark colored"></i> MySQL </h2>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <h1><i class="fab fa-python"></i> Python</h1>
-         
+
         </div>
       </div>
     </div>
@@ -208,34 +224,38 @@
   </main>
   <section>
     <div class="container form formulario">
-      <p>Nome</p>
-      <div class="col-3">
+      <form>
 
-        <div class="input-group  flex-nowrap">
-          <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Username"
-            aria-describedby="addon-wrapping">
+        <label>Nome</label>
+
+        <div class="col-12">
+          <div class="input-group  flex-nowrap">
+            <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Username"
+              aria-describedby="addon-wrapping">
+          </div>
+        </div> <br>
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu email">
+          </div>
         </div>
-      </div> <br>
-      <div class="col col-3">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu email">
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label ">Envie uma mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+              placeholder="Digite uma mensagem"></textarea>
+          </div>
         </div>
-      </div>
-      <div class="col-5">
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label ">Envie uma mensagem</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
-            placeholder="Digite uma mensagem"></textarea>
-        </div>
-      </div>
-      <button type="button" class="btn btn-sm btn-enviar"><a href=""> Enviar</button></a>
+        <button type="button" class="btn btn-sm btn-enviar"><a href=""> Enviar</button></a>
 
     </div><br>
+    </form>
   </section>
   <footer>
     <div class="zap">
-      <a href="https://web.whatsapp.com/send?phone=5521968443621" target="_blank" rel="external"><i class="fab fa-whatsapp"></i></a>
+      <a src="21974537041" href="https://web.whatsapp.com/send?phone=5521968443621" target="_blank" rel="external"><i
+          class="fab fa-whatsapp"></i></a>
     </div>
     <div class="rodape">
       <div class="row" id="contact">
@@ -246,15 +266,16 @@
         <div class="col text-center icons">
           <a href="https://www.facebook.com/marcao.araujo.5" target="_blank"><i class="fab fa-facebook-square"></i></a>
           <a href="https://github.com/AraujoMark-bit" target="_blank"><i
-            class="devicon-github-original-wordmark colored"></i></a>
-            <a href="https://www.linkedin.com/in/marcos-araujo-926b96207/?originalSubdomain=br" target="_blank"> <i
+              class="devicon-github-original-wordmark colored"></i></a>
+          <a href="https://www.linkedin.com/in/marcos-araujo-926b96207/?originalSubdomain=br" target="_blank"> <i
               class="devicon-linkedin-plain"></i></a>
-            </div>
-          </div>
-        </div>        
-      </footer>
-      <script src="public/js/bootstrap.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-    </body>
-    
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="public/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
