@@ -1,5 +1,6 @@
 # Landing-page
-Projeto criado para desenvolver e praticar conhecimentos Web.
+Projeto de minha autoria, nela contém conteúdos sobre minha pessoa e também algumas das minhas habilidades em Web.
+
 
 
 Link do Site » https://araujomark-bit.github.io/Landingpage-portfolio/
