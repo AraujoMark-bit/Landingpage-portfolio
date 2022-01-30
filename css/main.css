@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  padding: 0;  
+  padding: 0;
   overflow-x: hidden;
   background-image: url("../pictures/background.jpg");
   background-repeat: repeat;
@@ -14,7 +14,7 @@ body {
 
 }
 
- .navbar-nav {
+.navbar-nav {
   margin-left: auto !important;
 }
 
@@ -163,6 +163,29 @@ p {
 .main p {
   color: #FFF;
 }
+
+.h1 {
+  -webkit-animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 1;
+    animation-delay: 0.20s;
+
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 
 .about {
   margin-top: 200px;
@@ -325,6 +348,11 @@ p {
 
 }
 
+#span-id {
+  color: tomato;
+  font-weight: bold;
+}
+
 .know {
   padding-bottom: 100px;
 }
@@ -336,22 +364,26 @@ p {
 
 @media screen and (max-width: 750px) {
   .boot {
-     padding-top: 0;
-     margin-left: 0;
+    padding-top: 0;
+    margin-left: 0;
   }
 
 }
 
 .python {
-  padding-top: 60px;
+  padding-top: 30px;
+}
+
+.sql i {
+  font-size: 3ex;
+
 }
 
 @media screen and (max-width: 750px) {
   .python {
-      padding-top: 0px;
-}
+    padding-top: 0px;
   }
-
+}
 
 
 .form {
@@ -433,4 +465,25 @@ p {
 
 .zap i {
   color: #FFF;
+  z-index: 500;
+}
+
+.btn-subir {
+  border-radius: 10px;
+  position: fixed;
+  right: 100px;
+  bottom: 10px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.arrow-up {
+  font-size: 40px;
+  color: #8E2DE2;
+  background-color: black;
+  border-radius: 25px;
+  z-index: 999;
+
+
 }

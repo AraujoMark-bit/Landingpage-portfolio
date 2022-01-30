@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Principal</title>
+  <title>Marcos-Principal</title>
   <link rel="shortcut icon" href="pictures/mark.ico" type="image/x-icon/">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -22,6 +22,7 @@
 </head>
 
 <body>
+  <!-- INÍCIO DA NAVBAR -->
   <header>
     <nav class="navbar navbar-expand-lg bg-warning navbar-dark bg-dark fixed-top">
       <div class="container" id="menu">
@@ -52,6 +53,7 @@
 
     </nav>
   </header>
+  <!-- CONTAINER APRESENTAÇÃO COM INTEGRAÇÃO DO BOTÃO PARA GITHUB -->
   <main>
     <div class="container main">
       <div class="row">
@@ -79,7 +81,7 @@
       </div>
       <hr class="linha" />
       <br>
-
+      <!-- ROW DE APRESENTAÇÃO DO DEV -->
       <div class="row">
         <div class="col-12 col-md-6">
           <p>
@@ -94,6 +96,12 @@
             Apaixonado por Tecnologias e desenvolvimento de Softwares que possam mudar e acrescentar diferenças na
             vida
             das pessoas.
+          </p>
+          <p>
+            Focado no desenvolvimento <span id="span-id"> Full-Stack</span>, utilizando o Back-end com C#.NET core |
+            Python. Web:
+            HTML|CSS|Javascript|Bootstrap.
+            Gosto de trabalhar com metodologias Ágeis (Scrum) | Azure DevOps|Asana; Database: MySQL, SQL Server.
           </p>
         </div>
         <div class="col-12 col-md-6">
@@ -111,7 +119,7 @@
       </div>
 
       <br>
-
+      <!-- MINI PORTFÓLIO, ALGUNS PROJETOS PRÓPRIOS REALIZADOS -->
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
@@ -129,7 +137,8 @@
             <div class="container">
               <div class="carousel-caption text-center">
                 <h1 class="text-port1">Site MarciaCakes</h1>
-                <p><a class="btn btn-sm btn-primary" href="https://github.com/AraujoMark-bit/Projeto-Site-confeitaria">Saiba Mais</a></p>
+                <p><a class="btn btn-sm btn-primary"
+                    href="https://github.com/AraujoMark-bit/Projeto-Site-confeitaria">Saiba Mais</a></p>
               </div>
             </div>
           </div>
@@ -142,7 +151,8 @@
             <div class="container">
               <div class="carousel-caption text-end text-dark">
                 <h1>Whatsapp Web Clone</h1>
-                <p><a class="btn btn-sm btn-primary" href="https://github.com/AraujoMark-bit/ProjetoZapClone">Saiba Mais</a></p>
+                <p><a class="btn btn-sm btn-primary" href="https://github.com/AraujoMark-bit/ProjetoZapClone">Saiba
+                    Mais</a></p>
               </div>
             </div>
           </div>
@@ -155,7 +165,8 @@
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1 class="">Entrega Facilitada</h1>
-                <p><a class="btn btn-sm btn-primary" href="https://github.com/AraujoMark-bit/Ola-Mundo">Saiba Mais</a></p>
+                <p><a class="btn btn-sm btn-primary" href="https://github.com/AraujoMark-bit/Ola-Mundo">Saiba Mais</a>
+                </p>
               </div>
             </div>
           </div>
@@ -170,7 +181,7 @@
         </button>
       </div>
     </div>
-
+    <!-- SKILLS  -->
     <div class="row text-center know">
       <div class="col col-md-12">
         <h1 class="know">Knowledge&nbsp;&nbsp;<i class=" flexa fas fa-angle-double-down"></i></h1>
@@ -216,31 +227,36 @@
         </div>
         <div class="col-12 col-md-4">
           <h1><i class="fab fa-python"></i> Python</h1>
-
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto sql">
+          <h2><i class="devicon-microsoftsqlserver-plain-wordmark"></i>SQL Server</h2>
         </div>
       </div>
     </div>
 
   </main>
+  <!-- FORMULÁRIO PARA ENVIO DE EMAILS, CONTATOS. 'AINDA EM CONSTRUÇÃO DA INTEGRAÇÃO COM BANCO DE DADOS' -->
   <section>
     <div class="container form formulario">
       <form>
 
         <label>Nome</label>
 
-        <div class="col-12">
+        <div class="col col-sm-6">
           <div class="input-group  flex-nowrap">
             <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Username"
               aria-describedby="addon-wrapping">
           </div>
         </div> <br>
-        <div class="col-12">
+        <div class="col col-sm-6">
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu email">
           </div>
         </div>
-        <div class="col-12">
+        <div class="col col-sm-6">
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label ">Envie uma mensagem</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
@@ -249,21 +265,21 @@
         </div>
         <button type="button" class="btn btn-sm btn-enviar"><a href=""> Enviar</button></a>
 
+      </form>
     </div><br>
-    </form>
   </section>
   <footer>
     <div class="zap">
-      <a src="21974537041" href="https://web.whatsapp.com/send?phone=5521968443621" target="_blank" rel="external"><i
+      <a src="21974537041" href="https://web.whatsapp.com/send?phone=5521974537041" target="_blank" rel="external"><i
           class="fab fa-whatsapp"></i></a>
     </div>
     <div class="rodape">
       <div class="row" id="contact">
         <div class="col-12 text-center">
           <p>Marcos Araujo &copy; 2021</p>
-          <p>mvasonicc@gmail.com</p>
+          <p>markaraujo-developer@outlook.com</p>
         </div>
-        <div class="col text-center icons">
+        <div class="col  text-center icons">
           <a href="https://www.facebook.com/marcao.araujo.5" target="_blank"><i class="fab fa-facebook-square"></i></a>
           <a href="https://github.com/AraujoMark-bit" target="_blank"><i
               class="devicon-github-original-wordmark colored"></i></a>
@@ -271,11 +287,16 @@
               class="devicon-linkedin-plain"></i></a>
         </div>
       </div>
+      <!--  BOTÃO PARA SUBIR A PÁGINA -->
+      <div onclick="SubirTela()" class="btn-subir">
+        <i class="fas arrow-up fa-arrow-circle-up"></i>
+      </div>
     </div>
   </footer>
 
   <script src="public/js/bootstrap.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
